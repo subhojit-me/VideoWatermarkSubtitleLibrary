@@ -1,0 +1,8 @@
+Error occourence Time = 2020-04-06:11-19
+Cannot open database "DemoDB2" requested by the login. The login failed.
+Login failed for user 'sa'.
+----------------------------------------------------------------------------
+Error occourence Time = 2020-04-06:11-20
+Cannot open database "DemoDB2" requested by the login. The login failed.
+Login failed for user 'sa'.
+----------------------------------------------------------------------------

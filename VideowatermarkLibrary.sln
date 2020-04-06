@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideowatermarkLibrary", "VideowatermarkLibrary\VideowatermarkLibrary.csproj", "{BEE15390-18AD-452E-8B3C-F2A054485113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatermarkServiceExecuter", "WatermarkServiceExecuter\WatermarkServiceExecuter.csproj", "{39F5DBC9-D1F6-4C1D-917F-848C114CCB14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE15390-18AD-452E-8B3C-F2A054485113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE15390-18AD-452E-8B3C-F2A054485113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE15390-18AD-452E-8B3C-F2A054485113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE15390-18AD-452E-8B3C-F2A054485113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F5DBC9-D1F6-4C1D-917F-848C114CCB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F5DBC9-D1F6-4C1D-917F-848C114CCB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F5DBC9-D1F6-4C1D-917F-848C114CCB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F5DBC9-D1F6-4C1D-917F-848C114CCB14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {152601BC-F948-4241-AC13-6D9A4EA8CBB7}
+	EndGlobalSection
+EndGlobal
