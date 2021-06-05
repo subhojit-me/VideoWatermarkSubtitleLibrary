@@ -11,9 +11,15 @@ namespace WatermarkServiceExecuter
     {
         static void Main(string[] args)
         {
-            new ServiceExecuter().OnStart();
-            System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
-            Console.WriteLine("Timeout Infinite added");
+            try
+            {
+                new ServiceExecuter().OnStart();
+                System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
+            }
+            catch (Exception e)
+            {
+                Console.Write("Some Error Occoured in main while starting Service= {0}", e.Message);
+            }
         }
     }
 }
