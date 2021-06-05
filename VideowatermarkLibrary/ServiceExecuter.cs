@@ -41,9 +41,9 @@ namespace VideowatermarkLibrary
 
                 OperationInitilizerService.InitilizeOperation();
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-
+                Console.WriteLine("Error in OnElapsedTime= {0}", ex.Message);
             }
         }
 
