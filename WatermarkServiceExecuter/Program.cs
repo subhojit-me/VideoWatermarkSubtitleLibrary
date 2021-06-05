@@ -13,6 +13,7 @@ namespace WatermarkServiceExecuter
         {
             new ServiceExecuter().OnStart();
             System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
+            Console.WriteLine("Timeout Infinite added");
         }
     }
 }
